@@ -88,3 +88,10 @@ var finances = [
   ['Feb-2017', 671099],
 ];
 
+// Initialize variables to store the analysis results
+var totalMonths = finances.length;
+var totalProfitLoss = 0;
+var totalChange = 0;
+var greatestIncrease = { date: '', amount: 0 };
+var greatestDecrease = { date: '', amount: 0 };
+
