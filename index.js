@@ -121,3 +121,14 @@ for (var f = 0; f < finances.length; f++) {
     }
   }
 }
+// Calculate average change
+var averageChange = totalChange / (totalMonths - 1);
+
+// Display the results in the console
+console.log("Financial Analysis");
+console.log("------------------");
+console.log("Total Months: " + totalMonths);
+console.log("Total Profit/Loss: $" + totalProfitLoss);
+console.log("Average Change: $" + averageChange.toFixed(2));
+console.log("Greatest Increase in Profits: " + greatestIncrease.date + " ($" + greatestIncrease.amount + ")");
+console.log("Greatest Decrease in Profits: " + greatestDecrease.date + " ($" + greatestDecrease.amount + ")");
