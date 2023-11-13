@@ -95,3 +95,29 @@ var totalChange = 0;
 var greatestIncrease = { date: '', amount: 0 };
 var greatestDecrease = { date: '', amount: 0 };
 
+// Loop through the financial data to perform analysis
+for (var f = 0; f < finances.length; f++) {
+  // Extract values for the current month
+  var date = finances[f][0];
+  var profitLoss = finances[f][1];
+
+  // Calculate total profit/loss
+  totalProfitLoss += profitLoss;
+
+  // Calculate total change
+  if (f > 0) {
+    var change = profitLoss - finances[f - 1][1];
+    totalChange += change;
+
+    // Check for the greatest increase and decrease
+    if (change > greatestIncrease.amount) {
+      greatestIncrease.date = date;
+      greatestIncrease.amount = change;
+    }
+
+    if (change < greatestDecrease.amount) {
+      greatestDecrease.date = date;
+      greatestDecrease.amount = change;
+    }
+  }
+}
