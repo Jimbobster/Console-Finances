@@ -22,7 +22,7 @@ This tool analyzes financial data records to calculate each of the following, us
 When you open the code in the browser, then the resulting analysis should display in the console section by following the steps below :
 
 <ol>
-<li>Open the browser by clicking on this link : 
+<li>Open the browser by clicking on this link : https://jimbobster.github.io/Console-Finances/
 
 <li>Right Click on the page and choose inspect
 
@@ -30,7 +30,7 @@ When you open the code in the browser, then the resulting analysis should displa
 </ol>
 
 ## Usage
-<li> URL of the deployed application :
+<li> URL of the deployed application : https://jimbobster.github.io/Console-Finances/
 <li> URL of the GitHub repository that contains my code : https://github.com/Jimbobster/Console-Finances
 
 ## Credits
