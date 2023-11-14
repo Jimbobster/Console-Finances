@@ -32,7 +32,7 @@ When you open the code in the browser, then the resulting analysis should displa
 ## Usage
 <li> URL of the deployed application : https://jimbobster.github.io/Console-Finances/
 <li> URL of the GitHub repository that contains my code : https://github.com/Jimbobster/Console-Finances
-Screenshot : ![Console](https://github.com/Jimbobster/Console-Finances/assets/146639118/df939ae7-a66b-4dd6-91e3-96deb5d49048)
+<li> Screenshot : ![Console](https://github.com/Jimbobster/Console-Finances/assets/146639118/df939ae7-a66b-4dd6-91e3-96deb5d49048)
 
   
 ## Credits
